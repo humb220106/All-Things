@@ -35,12 +35,6 @@ const Navbar = () => {
                             ))}
                         </ul>
                     </div>
-
-                    <div className="space-x-12 hidden md:flex items-center">
-                        <a href="/" className="hidden lg:flex items-center hover:text-secondary"><GrLanguage className="mr-2" /><span>Language</span></a>
-                        <button className="bg-secondary py-2 px-4 transition-all duration-300 rounded hover:text-white ">Sign up</button>
-                    </div>
-
                     <div className="md:hidden">
                         <button onClick={toggleMenu} className="text-white focus:outline-none focus:text-gray-300">
                             {isMenuOpen ? <FaTimes className="w-6 h-6 text-primary" /> : <FaBars className="w-6 h-6 text-primary" />}
